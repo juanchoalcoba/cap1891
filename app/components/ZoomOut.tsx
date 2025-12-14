@@ -58,15 +58,16 @@ const ZoomOutTransition: React.FC<ZoomOutTransitionProps> = ({ title, children }
   return (
     <div 
       ref={sectionRef} 
-      className="min-h-screen relative flex flex-col items-center justify-center bg-black transition-colors duration-500"
+      className="min-h-screen relative flex flex-col items-center justify-center  transition-colors duration-500"
     >
       {/* Título que hace zoom */}
       <h1 
-        ref={titleRef} 
-        className="text-8xl md:text-9xl font-extrabold text-black z-10 whitespace-nowrap"
-      >
-        {title}
-      </h1>
+  ref={titleRef} 
+  className="text-8xl md:text-9xl font-extrabold text-amber-500 z-10 whitespace-nowrap drop-shadow-[0_8px_12px_rgba(0,0,0,0.6)]"
+>
+  {title}
+</h1>
+
 
       {/* Contenido que aparece DESPUÉS de que se complete el pin/zoom 
           (Este contenido en realidad es lo que pusiste en "Contenido después del efecto") */}

@@ -2,7 +2,6 @@ import CurtainScrollEffect from "./components/Curtain";
 import IntroScrollEffect from "./components/IntroScroll"; 
 import ZoomOutTransition from "./components/ZoomOut"; 
 // Importa tu nuevo componente o sección aquí
-import FinalSectionComponent from "./components/FinalSection";
 import Image from "next/image";
 
 // URL de la imagen que quieres usar para la introducción
@@ -59,7 +58,7 @@ const Page = () => {
               <span className="text-amber-300">PEÑAROL</span> CAMPEÓN DE AMÉRICA Y DEL MUNDO
             </h2>
             <p className="mt-2 text-xl w-full balance md:text-2xl">
-              Peñarol es el único club uruguayo que ha ganado la <span className="text-amber-500">Copa Libertadores</span> y la Copa Intercontinental en dos ocasiones
+              Peñarol es el único club uruguayo que ha ganado la <span className="text-amber-400">Copa Libertadores</span> y la Copa Intercontinental en dos ocasiones
             </p>
             <Image
                         src="/cap.png"

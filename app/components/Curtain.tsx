@@ -113,7 +113,7 @@ const CurtainScrollEffect: React.FC<CurtainScrollEffectProps> = ({
     left: "50%",
     transform: "translate(-50%, -50%)",
     fontSize: "6vw",
-    color: "yellow",
+    color: "#BBD900", // Color dorado para Peñarol
     opacity: 0, // Inicialmente oculto
     zIndex: 0, // ¡Subimos el zIndex para asegurar que el texto/icono esté encima!
     textAlign: "center",
