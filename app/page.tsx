@@ -6,7 +6,7 @@ import Image from "next/image";
 
 // URL de la imagen que quieres usar para la introducción
 // Reemplaza esta URL con la ruta a tu propia imagen.
-const CLUB_IMAGE_URL = 'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4234990.jpg&sp=1765681222Td80e1bae3587f628390bd58e453b441933fee4172aad46dd07a261f59847d973'; 
+const CLUB_IMAGE_URL = 'peña1.jpeg'; 
 
 const Page = () => {
 
